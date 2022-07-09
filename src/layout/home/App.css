@@ -1,0 +1,156 @@
+.header {
+  width: 98%;
+  font-size: 1em;
+  background-color: black;
+  color: aqua;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftNav {
+  width:10%;
+  height:500px;
+  font-size: 1em;
+  float: left;
+  background-color: lightgrey;
+}
+
+.content {
+  width: 55%;
+  font-size: 1em;
+  float: left;
+}
+
+.footer {
+  width: 98%;
+  font-size: 1em;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: aqua;
+}
+
+.item-wrapper {
+  width: 20%;
+  float: left;
+  margin: 15px 15px 15px 15px;
+}
+
+.item {
+  width: 100%;
+  border: 5px solid gray;
+  float: left;
+
+}
+
+.item-header {
+  width: 58%;
+  float: left;
+}
+
+.item-image {
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+
+.image {
+  width: 100%;
+}
+
+.item-content {
+  width: 60%;
+  font-size: 1em;
+}
+
+.item-title {
+  width: 100%;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.row {
+  width: 95%;
+  margin: 15px 0px 0px 15px;
+}
+
+.colmun25 {
+  width: 25%;
+  float: left;
+  border-bottom: 1px dashed blueviolet;
+}
+
+.colmun25Header {
+  width: 25%;
+  float: left;
+  font-weight: bolder;
+}
+
+.cart {
+  width: 30%;
+  float: left;
+  border: 5px solid gray;
+  margin: 15px 15px 15px 15px;
+}
+
+.amtDesc {
+  font-weight: bolder;
+  width: 75%;
+  text-align: right;
+  float: left;
+  border-bottom: 1px dashed green;
+
+}
+
+.amtVal {
+  width: 25%;
+  float: left;
+  border-bottom: 1px dashed green;
+  text-align: center;
+}
+
+.paymentBtn {
+  background-color: green;
+  color: white;
+  width: 40%;
+  height: 40px;
+  margin: 15px 15px 15px 15px;
+}
+
+.rowPayment {
+  float: center;
+}
+.action{
+  margin: 5px 5px 5px 5px;
+}
+.addToCartBtn{
+  background-color: blueviolet;
+  color: white;
+}
+.addBtn{
+  background-color: aquamarine;
+  font-weight: bolder;
+
+}
+
+.subBtn{
+  background-color: crimson;
+  color: white;
+  font-weight: bolder;
+  margin-left: 2px;
+}
+.searchDiv{
+  width:100%;
+  float:center;
+}
+.searchInput{
+  width:50%;
+  height:20px;
+  background-color: lightcyan;
+  margin-top: 1%;
+  margin-left: 25%;
+}
